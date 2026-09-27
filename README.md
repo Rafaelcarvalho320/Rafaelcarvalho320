@@ -4,7 +4,7 @@
 
 <br />
 
-<img src="./assets/player.svg" width="100%" alt="Online ID: Rafaelcarvalho320 · Computer Engineering Student · Belém, PA, Brazil. Now playing: API integrations & resilient backends." />
+<img src="./assets/player.svg" width="100%" alt="Online ID: Rafaelcarvalho320 · Computer Engineer (UFPA) · Belém, PA, Brazil. Now playing: API integrations & resilient backends." />
 
 <br />
 <br />
