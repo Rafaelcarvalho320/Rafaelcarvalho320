@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="352" viewBox="0 0 600 352" role="img" aria-label="Melanoma Symmetry - Computer vision · TCC">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070a14"/>
+      <stop offset="1" stop-color="#0d1530"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.74" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#e08ad8" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#e08ad8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#05070d" stop-opacity=".9"/>
+      <stop offset=".6" stop-color="#05070d" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="600" height="338" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)" font-family="'Segoe UI', 'SF Pro Display', -apple-system, 'Helvetica Neue', Arial, sans-serif">
+    <rect width="600" height="338" fill="url(#bg)"/>
+    <rect width="600" height="338" fill="url(#glow)"/>
+    <path d="M440 90 C490 86 522 124 516 168 C512 210 486 250 440 248 C404 246 366 226 364 180 C362 132 392 94 440 90 Z" fill="#e08ad8" fill-opacity=".14" stroke="#e08ad8" stroke-width="1.8"/><line x1="440" y1="66" x2="440" y2="272" stroke="#ffffff" stroke-opacity=".35" stroke-dasharray="5 5"/><line x1="336" y1="169" x2="544" y2="169" stroke="#ffffff" stroke-opacity=".35" stroke-dasharray="5 5"/><circle cx="440" cy="169" r="4" fill="#ffffff"/><line x1="346" x2="534" y1="80" y2="80" stroke="#e08ad8" stroke-width="1.4" stroke-opacity=".8"><animate attributeName="y1" values="80;258;80" dur="4s" repeatCount="indefinite"/><animate attributeName="y2" values="80;258;80" dur="4s" repeatCount="indefinite"/></line>
+    <rect width="600" height="338" fill="url(#shade)"/>
+    <g transform="translate(36 40)"><circle cx="0" cy="0" r="7.0" fill="none" stroke="#e08ad8" stroke-width="1.8"/></g>
+    <text x="58" y="45" font-size="11" letter-spacing="3" fill="#8a93a8">PYTHON · OPENCV</text>
+    <text x="34" y="260" font-size="30" font-weight="500" fill="#f2f5fb">Melanoma Symmetry</text>
+    <text x="36" y="288" font-size="15" fill="#a9bde6">Computer vision · TCC</text>
+    <rect x="36" y="308" width="44" height="3" rx="1.5" fill="#e08ad8"/>
+    <rect x="0.5" y="0.5" width="599" height="337" rx="16" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+  </g>
+</svg>

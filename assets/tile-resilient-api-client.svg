@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="352" viewBox="0 0 600 352" role="img" aria-label="Resilient API Client - Retry · circuit breaker · rate limit">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070a14"/>
+      <stop offset="1" stop-color="#0d1530"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.74" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#3ddbb4" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#3ddbb4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#05070d" stop-opacity=".9"/>
+      <stop offset=".6" stop-color="#05070d" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="600" height="338" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)" font-family="'Segoe UI', 'SF Pro Display', -apple-system, 'Helvetica Neue', Arial, sans-serif">
+    <rect width="600" height="338" fill="url(#bg)"/>
+    <rect width="600" height="338" fill="url(#glow)"/>
+    <path d="M300 190 L360 190 L372 150 L386 232 L400 170 L412 190 L440 190" fill="none" stroke="#3ddbb4" stroke-width="2" stroke-linejoin="round" stroke-dasharray="400" stroke-dashoffset="400"><animate attributeName="stroke-dashoffset" values="400;0;0" keyTimes="0;.6;1" dur="3s" repeatCount="indefinite"/></path><path d="M476 190 L540 190 L552 160 L564 214 L576 190 L600 190" fill="none" stroke="#3ddbb4" stroke-opacity=".35" stroke-width="2" stroke-linejoin="round"/><circle cx="440" cy="190" r="5" fill="#3ddbb4"/><circle cx="476" cy="190" r="5" fill="#3ddbb4" fill-opacity=".5"/><path d="M440 190 L470 166" stroke="#3ddbb4" stroke-width="2.4" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" values="0 440 190;-18 440 190;0 440 190" dur="3s" repeatCount="indefinite"/></path><circle cx="458" cy="118" r="30" fill="none" stroke="#3ddbb4" stroke-opacity=".2" stroke-width="1.4"/>
+    <rect width="600" height="338" fill="url(#shade)"/>
+    <g transform="translate(36 40)"><path d="M0 -7.0 L7.0 5.6000000000000005 L-7.0 5.6000000000000005 Z" fill="none" stroke="#3ddbb4" stroke-width="1.8" stroke-linejoin="round"/></g>
+    <text x="58" y="45" font-size="11" letter-spacing="3" fill="#8a93a8">PYTHON · HTTP</text>
+    <text x="34" y="260" font-size="30" font-weight="500" fill="#f2f5fb">Resilient API Client</text>
+    <text x="36" y="288" font-size="15" fill="#a9bde6">Retry · circuit breaker · rate limit</text>
+    <rect x="36" y="308" width="44" height="3" rx="1.5" fill="#3ddbb4"/>
+    <rect x="0.5" y="0.5" width="599" height="337" rx="16" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="352" viewBox="0 0 600 352" role="img" aria-label="Django Docker Starter - Production-ready boilerplate">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070a14"/>
+      <stop offset="1" stop-color="#0d1530"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.74" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#e08ad8" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#e08ad8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#05070d" stop-opacity=".9"/>
+      <stop offset=".6" stop-color="#05070d" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="600" height="338" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)" font-family="'Segoe UI', 'SF Pro Display', -apple-system, 'Helvetica Neue', Arial, sans-serif">
+    <rect width="600" height="338" fill="url(#bg)"/>
+    <rect width="600" height="338" fill="url(#glow)"/>
+    <g><rect x="395" y="188" width="84" height="48" rx="4" fill="#0b1224" stroke="#e08ad8" stroke-opacity=".45" stroke-width="1.6"/><line x1="411.8" y1="198" x2="411.8" y2="226" stroke="#e08ad8" stroke-opacity=".3"/><line x1="428.6" y1="198" x2="428.6" y2="226" stroke="#e08ad8" stroke-opacity=".3"/><line x1="445.4" y1="198" x2="445.4" y2="226" stroke="#e08ad8" stroke-opacity=".3"/><line x1="462.2" y1="198" x2="462.2" y2="226" stroke="#e08ad8" stroke-opacity=".3"/></g><g><rect x="485" y="188" width="84" height="48" rx="4" fill="#0b1224" stroke="#e08ad8" stroke-opacity=".45" stroke-width="1.6"/><line x1="501.8" y1="198" x2="501.8" y2="226" stroke="#e08ad8" stroke-opacity=".3"/><line x1="518.6" y1="198" x2="518.6" y2="226" stroke="#e08ad8" stroke-opacity=".3"/><line x1="535.4" y1="198" x2="535.4" y2="226" stroke="#e08ad8" stroke-opacity=".3"/><line x1="552.2" y1="198" x2="552.2" y2="226" stroke="#e08ad8" stroke-opacity=".3"/></g><g><animateTransform attributeName="transform" type="translate" values="0 -10;0 0;0 -10" dur="3.2s" repeatCount="indefinite"/><rect x="440" y="134" width="84" height="48" rx="4" fill="#0b1224" stroke="#e08ad8" stroke-opacity=".9" stroke-width="1.6"/><line x1="456.8" y1="144" x2="456.8" y2="172" stroke="#e08ad8" stroke-opacity=".3"/><line x1="473.6" y1="144" x2="473.6" y2="172" stroke="#e08ad8" stroke-opacity=".3"/><line x1="490.4" y1="144" x2="490.4" y2="172" stroke="#e08ad8" stroke-opacity=".3"/><line x1="507.2" y1="144" x2="507.2" y2="172" stroke="#e08ad8" stroke-opacity=".3"/></g><path d="M380 244 H590" stroke="#e08ad8" stroke-opacity=".3" stroke-width="1.4"/><path d="M465 92 q14 -14 28 0 q14 14 28 0" fill="none" stroke="#e08ad8" stroke-opacity=".5" stroke-width="1.6"/>
+    <rect width="600" height="338" fill="url(#shade)"/>
+    <g transform="translate(36 40)"><rect x="-7.0" y="-7.0" width="14" height="14" rx="1.5" fill="none" stroke="#e08ad8" stroke-width="1.8"/></g>
+    <text x="58" y="45" font-size="11" letter-spacing="3" fill="#8a93a8">DJANGO · DOCKER · GUNICORN</text>
+    <text x="34" y="260" font-size="30" font-weight="500" fill="#f2f5fb">Django Docker Starter</text>
+    <text x="36" y="288" font-size="15" fill="#a9bde6">Production-ready boilerplate</text>
+    <rect x="36" y="308" width="44" height="3" rx="1.5" fill="#e08ad8"/>
+    <rect x="0.5" y="0.5" width="599" height="337" rx="16" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+  </g>
+</svg>

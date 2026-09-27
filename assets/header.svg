@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="Rafael Carvalho - Backend and Frontend Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04060c"/>
+      <stop offset="0.55" stop-color="#081230"/>
+      <stop offset="1" stop-color="#0c1a45"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.3" r="0.55">
+      <stop offset="0" stop-color="#2f6bff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2f6bff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6ea8ff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#6ea8ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeX" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.2"/>
+    </linearGradient>
+    <mask id="fade"><rect width="1200" height="440" fill="url(#fadeX)"/></mask>
+    <clipPath id="card"><rect width="1200" height="440" rx="18"/></clipPath>
+    <style>
+      .t { font-family: 'Segoe UI', 'SF Pro Display', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+      .w1 { animation: s600 18s linear infinite; }
+      .w2 { animation: s800 27s linear infinite; }
+      .w3 { animation: s480 13s linear infinite; }
+      .w4 { animation: s600 23s linear infinite reverse; }
+      .w5 { animation: s1200 40s linear infinite; }
+      @keyframes s480 { to { transform: translateX(-480px); } }
+      @keyframes s600 { to { transform: translateX(-600px); } }
+      @keyframes s800 { to { transform: translateX(-800px); } }
+      @keyframes s1200 { to { transform: translateX(-1200px); } }
+      .f { transform-box: fill-box; transform-origin: center; animation: float 7s ease-in-out infinite; }
+      .d1 { animation-delay: -1.5s; animation-duration: 8s; }
+      .d2 { animation-delay: -3s; animation-duration: 9s; }
+      .d3 { animation-delay: -4.5s; animation-duration: 6.5s; }
+      .d4 { animation-delay: -2.2s; animation-duration: 10s; }
+      @keyframes float {
+        0%, 100% { transform: translateY(0) rotate(0deg); opacity: .45; }
+        50% { transform: translateY(-16px) rotate(10deg); opacity: .9; }
+      }
+      .blink { animation: blink 2.4s ease-in-out infinite; }
+      @keyframes blink { 0%, 100% { opacity: .3; } 50% { opacity: 1; } }
+      .dot { animation: blink 1.8s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="440" fill="url(#bg)"/>
+    <rect width="1200" height="440" fill="url(#glow)"/>
+
+    <!-- XMB waves -->
+    <g mask="url(#fade)">
+      <path class="w5" d="M0 350 Q300 320 600 350 T1200 350 T1800 350 T2400 350 L2400 440 L0 440 Z" fill="url(#band)"/>
+      <path class="w2" d="M0 340 Q200 285 400 340 T800 340 T1200 340 T1600 340 T2000 340 T2400 340" fill="none" stroke="#6ea8ff" stroke-opacity=".28" stroke-width="1.4"/>
+      <path class="w1" d="M0 330 Q150 290 300 330 T600 330 T900 330 T1200 330 T1500 330 T1800 330 T2100 330 T2400 330" fill="none" stroke="#9cc3ff" stroke-opacity=".45" stroke-width="1.6"/>
+      <path class="w4" d="M-600 335 Q-450 381 -300 335 T0 335 T300 335 T600 335 T900 335 T1200 335 T1500 335 T1800 335" fill="none" stroke="#ffffff" stroke-opacity=".18" stroke-width="1.2"/>
+      <path class="w3" d="M0 320 Q120 292 240 320 T480 320 T720 320 T960 320 T1200 320 T1440 320 T1680 320 T1920 320 T2160 320 T2400 320" fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="1"/>
+    </g>
+
+    <!-- floating shapes -->
+    <g fill="none" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <path class="f" d="M880 102 L897 132 L863 132 Z" stroke="#3ddbb4"/>
+      <circle class="f d1" cx="1004" cy="156" r="14" stroke="#ff5c6c"/>
+      <path class="f d2" d="M1070 180 L1094 204 M1094 180 L1070 204" stroke="#6ea8ff"/>
+      <rect class="f d3" x="930" y="212" width="24" height="24" rx="2" stroke="#e08ad8"/>
+      <circle class="f d4" cx="790" cy="190" r="7" stroke="#6ea8ff" stroke-opacity=".7"/>
+      <path class="f d3" d="M1128 110 L1138 127 L1118 127 Z" stroke="#e08ad8" stroke-opacity=".7"/>
+      <rect class="f d1" x="1030" y="250" width="12" height="12" rx="1" stroke="#3ddbb4" stroke-opacity=".7"/>
+    </g>
+
+    <!-- status bar -->
+    <g class="t" font-size="13" letter-spacing="3" fill="#8a93a8">
+      <g transform="translate(80 56)" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M0 10 L6 0 L12 10 Z" stroke="#3ddbb4"/>
+        <circle cx="28" cy="5.5" r="5.5" stroke="#ff5c6c"/>
+        <path d="M44 0.5 L54 10.5 M54 0.5 L44 10.5" stroke="#6ea8ff"/>
+        <rect x="70" y="0.5" width="10" height="10" rx="1" stroke="#e08ad8"/>
+      </g>
+      <text x="1120" y="66" text-anchor="end">BELÉM · PA · BRAZIL</text>
+    </g>
+
+    <!-- title -->
+    <g class="t">
+      <circle class="dot" cx="86" cy="120" r="4.5" fill="#3ddbb4"/>
+      <text x="100" y="125" font-size="13" letter-spacing="4" fill="#8a93a8">PLAYER 1 · ONLINE</text>
+      <text x="78" y="196" font-size="66" font-weight="300" fill="#f2f5fb" letter-spacing="-0.5">Rafael Carvalho</text>
+      <text x="80" y="238" font-size="23" fill="#a9bde6">Backend &amp; Frontend Developer</text>
+      <text x="80" y="274" font-size="13" letter-spacing="3.5" fill="#6f7a93">PYTHON  ·  DJANGO  ·  REACT  ·  TYPESCRIPT</text>
+    </g>
+
+    <!-- press start -->
+    <g class="t blink" font-size="14" letter-spacing="5" fill="#dfe7f7">
+      <text x="572" y="410" text-anchor="end">PRESS</text>
+      <circle cx="594" cy="405" r="11" fill="none" stroke="#6ea8ff" stroke-width="1.6"/>
+      <path d="M589 400 L599 410 M599 400 L589 410" stroke="#6ea8ff" stroke-width="1.8" stroke-linecap="round"/>
+      <text x="617" y="410">TO START</text>
+    </g>
+
+    <rect x="0.5" y="0.5" width="1199" height="439" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".07"/>
+  </g>
+</svg>

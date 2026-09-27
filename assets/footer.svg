@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="110" viewBox="0 0 1200 110" role="img" aria-label="Saving data. Do not turn off the system.">
+  <defs>
+    <style>
+      .spin { transform-box: fill-box; transform-origin: center; animation: spin 1.4s linear infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      .blink { animation: blink 2.4s ease-in-out infinite; }
+      @keyframes blink { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+  <g font-family="'Segoe UI', 'SF Pro Display', -apple-system, 'Helvetica Neue', Arial, sans-serif">
+    <rect width="1200" height="110" rx="18" fill="#0a0e1a"/>
+    <rect x="0.5" y="0.5" width="1199" height="109" rx="18" fill="none" stroke="#ffffff" stroke-opacity=".07"/>
+    <circle cx="52" cy="55" r="11" fill="none" stroke="#ffffff" stroke-opacity=".12" stroke-width="2.4"/>
+    <circle class="spin" cx="52" cy="55" r="11" fill="none" stroke="#6ea8ff" stroke-width="2.4" stroke-dasharray="18 52" stroke-linecap="round"/>
+    <text class="blink" x="78" y="52" font-size="15" fill="#e8eefb">Saving data...</text>
+    <text x="78" y="72" font-size="12.5" fill="#6f7a93">Do not turn off the system.</text>
+    <text x="1164" y="61" text-anchor="end" font-size="12" letter-spacing="3" fill="#8a93a8">OPTIONS</text><path d="M1075.8 50.0 L1081.8 60.8 L1069.8 60.8 Z" fill="none" stroke="#3ddbb4" stroke-width="1.8" stroke-linejoin="round"/><text x="1027.8" y="61" text-anchor="end" font-size="12" letter-spacing="3" fill="#8a93a8">BACK</text><circle cx="971.4" cy="56" r="6.0" fill="none" stroke="#ff5c6c" stroke-width="1.8"/><text x="923.4" y="61" text-anchor="end" font-size="12" letter-spacing="3" fill="#8a93a8">SELECT</text><path d="M839.8 50.0 L851.8 62.0 M851.8 50.0 L839.8 62.0" stroke="#6ea8ff" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+</svg>

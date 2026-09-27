@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-label="Game Library">
+  <g font-family="'Segoe UI', 'SF Pro Display', -apple-system, 'Helvetica Neue', Arial, sans-serif">
+    <rect width="1200" height="72" rx="14" fill="#0a0e1a"/>
+    <rect x="0.5" y="0.5" width="1199" height="71" rx="14" fill="none" stroke="#ffffff" stroke-opacity=".07"/>
+    <path d="M36.0 28.0 L52.0 44.0 M52.0 28.0 L36.0 44.0" stroke="#6ea8ff" stroke-width="2" stroke-linecap="round"/>
+    <text x="72" y="42" font-size="16" letter-spacing="5" fill="#e8eefb">GAME LIBRARY</text>
+    <text x="1164" y="41" text-anchor="end" font-size="12" letter-spacing="3" fill="#6f7a93">6 TITLES  ·  RECENTLY PLAYED</text>
+  </g>
+</svg>
